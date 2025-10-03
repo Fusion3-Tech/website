@@ -57,7 +57,7 @@ const Journey = () => {
             headingVariant="sub"
             variant="small"
             blueText="Journey"
-            whiteSecondText="From Concept to Reality"
+            whiteSecondText="Behind Every Project"
           />
         </motion.div>
 

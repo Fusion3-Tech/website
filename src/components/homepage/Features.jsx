@@ -9,7 +9,7 @@ export default function Features() {
         <FeatureCard
           icon={<SecureIcon />}
           title="Secure"
-          description="Fusion3 develops projects on the Polkadot ecosystem using robust, secure, and future-proof blockchain infrastructures."
+          description="Fusion3 develops projects on the Polkadot ecosystem using robust, secure, and future-proof blockchain principles."
           link="#"
           size="large"
           bgImage="/assets/images/webp/secure-bg.webp"
@@ -36,7 +36,7 @@ export default function Features() {
         <FeatureCard
           icon={<InnovativeIcon />}
           title="Innovative"
-          description="We leverage the latest technologies, including the upcoming JAM upgrade, to create scalable and cutting-edge solutions."
+          description="We use the latest technologies, including Agile Coretime, JAM, and Proof of Personhood (PoP), to deliver meaningful solutions."
           link="#"
           size="small"
           bgImage="/assets/images/webp/innovative-bg.webp"

@@ -58,9 +58,8 @@ const Portfolio = () => {
               variant="small"
               className="portfolio-para text-center mx-auto"
             >
-              Each project we work on is designed to push the boundaries of what
-              the Polkadot ecosystem can achieve. Explore our projects and see
-              how we turn ideas into reality.
+              Each project we work on is designed to push the boundaries of what’s possible 
+              in the Web3 space. Explore our projects to see how we turn ideas into reality.
             </Paragraph>
           </motion.div>
 

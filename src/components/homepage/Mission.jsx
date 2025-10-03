@@ -57,9 +57,9 @@ const Mission = () => {
           <motion.div variants={fadeUpVariant}>
             <Heading variant="white" className="text-start mission-heading">
               <span className="mission-start-heading">
-                We build the future of Web3,
+                We build meaningful
               </span>{" "}
-              one project at a time.
+              Web3 projects.
             </Heading>
           </motion.div>
 
@@ -68,8 +68,7 @@ const Mission = () => {
               variant="large"
               className="mission-para text-start !mx-0 "
             >
-              From infrastructure to smart contracts, we design and develop
-              solutions that strengthen the Polkadot ecosystem.
+              We develop projects for high-impact needs, with Web3 principles at the core.
             </Paragraph>
           </motion.div>
 

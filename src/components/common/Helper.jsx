@@ -59,27 +59,27 @@ export const reviewsDataList = [
 export const journeyData = [
   {
     section: "Discovery",
-    heading: "We start by understanding your vision, challenges, and goals.",
+    heading: "We start by identifying strong demand.",
     description:
-      "Through research and dialogue, we uncover opportunities and define the foundation for the project.",
+      "Through research and dialogue, we uncover opportunities and define the foundation of a project when we see strong demand.",
     contact: "Contact us",
     image: "/assets/images/webp/discovery-1.webp",
   },
   {
     section: "Strategy",
     heading:
-      "We design a clear roadmap aligned with the ecosystem’s opportunities.",
+      "We design a clear roadmap aligned with the vision of Web3.",
     description:
-      "Every step is planned to ensure focus, efficiency,and alignment with long-term goals.",
+      "Every step is planned to ensure focus, efficiency, and alignment with project's long-term goals.",
     contact: "Contact us",
     image: "/assets/images/webp/discovery-2.webp",
   },
   {
     section: "Build",
     heading:
-      "Our team develops robust solutions, from infrastructure to smart contracts.",
+      "Our team develops robust solutions, delivering high-quality end-to-end projects.",
     description:
-      "We transform strategies into tangible products, built with precision and tested for reliability.",
+      "We transform strategies into tangible projects, built with precision and tested for reliability.",
     contact: "Contact us",
     image: "/assets/images/webp/discovery-3.webp",
   },
@@ -87,7 +87,7 @@ export const journeyData = [
     section: "Scale",
     heading: "We optimize and expand projects to achieve sustainable growth.",
     description:
-      "Continuous improvement and ecosystem integration ensure that each solution evolves over time.",
+      "Continuous improvement and integration ensure that each solution evolves over time.",
     contact: "Contact us",
     image: "/assets/images/webp/discovery-4.webp",
   },
