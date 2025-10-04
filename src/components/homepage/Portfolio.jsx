@@ -76,13 +76,13 @@ const Portfolio = () => {
             className="portfolio-slider"
             modules={[Autoplay, Navigation, EffectFade]}
             loop
-            speed={1000}
+            speed={500}
             effect="fade"
             fadeEffect={{ crossFade: true }}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 3000,
+            //   disableOnInteraction: false,
+            // }}
             navigation={{
               prevEl: ".portfolio-prev",
               nextEl: ".portfolio-next",

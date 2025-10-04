@@ -29,7 +29,7 @@ export default function Home() {
       <Journey />
       <Portfolio />
       <Founders />
-      <Reviews />
+      {/* <Reviews /> */}
       <Newsletter />
       <Footer />
     </main>

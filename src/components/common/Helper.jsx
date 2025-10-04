@@ -23,16 +23,11 @@ export const footerSitemap = [
   { name: "Contact", href: "#get-in-touch" },
 ];
 export const footerSocials = [
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/accounts/login/?hl=en",
-  },
-  { name: "Linkedin", href: "https://github.com/" },
-  { name: "Github", href: "https://www.linkedin.com/" },
+  { name: "Linkedin", href: "https://www.linkedin.com/company/109154128/admin/dashboard/" },
+  { name: "Github", href: "https://github.com/Fusion3-Tech" },
 ];
 export const footerContact = [
-  { label: "mail@mail.com", href: "mailto:mail@mail.com" },
-  { label: "33312345679", href: "tel:33312345679" },
+  { label: "contact@fusion3.tech", href: "mailto:contact@fusion3.tech" },
 ];
 
 export const reviewsDataList = [
@@ -113,16 +108,16 @@ export const portfolioDataList = [
 export const foundersDataList = [
   {
     image: "/assets/images/webp/founder-1.webp",
-    role: "Role",
-    name: "Name Surname",
-    desc: "Sorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    href: "#",
+    role: "CEO & Development Lead",
+    name: "Sergej Sakac",
+    desc: "Sergej is the founder of the RegionX project. He is a member of the Polkadot Fellowship and has been an external core contributor to Substrate and Polkadot for over three years. Sergej is also an engineering alumnus of the Polkadot Blockchain Academy (PBA) at UC Berkeley.",
+    href: "https://www.linkedin.com/in/sergej-sakac-334a47252/",
   },
   {
     image: "/assets/images/webp/founder-2.webp",
-    role: "Role",
-    name: "Name Surname",
-    desc: "Sorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    href: "#",
+    role: "COO",
+    name: "Sergej N. Sakac",
+    desc: "Sergej N. Sakac is an engineer with a master's degree and over 20 years of experience in organizational roles within the IT and engineering industries. He is responsible for the operational functions of Fusion3's projects.",
+    href: "https://www.linkedin.com/in/sergej-n-sakac-617514a3/",
   },
 ];
