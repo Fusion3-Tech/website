@@ -96,28 +96,14 @@ export const journeyData = [
 export const portfolioDataList = [
   {
     icon: "/assets/images/webp/region-green-icon.webp",
-    desc: "RegionX builds decentralized cloud infrastructure, making AI and data processing scalable and accessible.",
-    appUrl: "#",
-    githubUrl: "#",
+    desc: "RegionX provides essential infrastructure for Polkadot’s Agile Coretime model, serving as the primary application for interaction and the only secondary marketplace for Coretime",
+    appUrl: "https://hub.regionx.tech/",
+    githubUrl: "https://github.com/RegionX-Labs",
     image: "/assets/images/webp/region-dashboard.webp",
   },
   {
-    icon: "/assets/images/webp/polka-icon.webp",
-    desc: "Polkadot builds decentralized cloud infrastructure and data processing accessible.",
-    appUrl: "#",
-    githubUrl: "#",
-    image: "/assets/images/webp/region-dashboard.webp",
-  },
-  {
-    icon: "/assets/images/webp/region-green-icon.webp",
-    desc: "RegionX builds decentralized cloud infrastructure, making AI and data processing scalable and accessible.",
-    appUrl: "#",
-    githubUrl: "#",
-    image: "/assets/images/webp/region-dashboard.webp",
-  },
-  {
-    icon: "/assets/images/webp/polka-icon.webp",
-    desc: "Polkadot builds decentralized cloud infrastructure and data processing accessible.",
+    icon: "/assets/images/webp/sol-xcm-icon.png",
+    desc: "A project that provides a typed interface for generating XCM messages from Solidity smart contracts, enabling seamless interoperability.",
     appUrl: "#",
     githubUrl: "#",
     image: "/assets/images/webp/region-dashboard.webp",
