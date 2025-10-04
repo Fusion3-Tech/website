@@ -65,7 +65,7 @@ const Portfolio = () => {
 
           {/* View projects Button */}
           <motion.div variants={itemVariants}>
-            <CommonButton className="portfolio-btn" variant="light">
+            <CommonButton href="#portfolio" className="portfolio-btn" variant="light">
               View projects
             </CommonButton>
           </motion.div>

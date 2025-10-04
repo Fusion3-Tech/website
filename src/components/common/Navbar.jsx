@@ -97,9 +97,7 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6, ease: "easeOut" }}
             >
-              <div className="cta-button">
-                <CommonButton variant="dark">View projects</CommonButton>
-              </div>
+              <CommonButton variant="dark" href="#portfolio">View projects</CommonButton>
             </motion.div>
 
             <motion.div
@@ -111,14 +109,12 @@ const Navbar = () => {
               <div className="nav-buttons">
                 <Link
                   className="nav-contact text-md font-normal text-white-60 -tracking-15 leading-100"
-                  href="#"
+                  href="#get-in-touch"
                 >
                   Contact us
                 </Link>
                 <div className="cta-button-max-sm">
-                  <div className="cta-button">
-                    <CommonButton variant="dark">View projects</CommonButton>
-                  </div>
+                  <CommonButton variant="dark" href="#portfolio">View projects</CommonButton>
                 </div>
               </div>
               <button
@@ -179,7 +175,7 @@ const Navbar = () => {
                 }}
               >
                 <Link
-                  href="#"
+                  href="#get-in-touch"
                   className="mobile-nav-link text-white font-normal leading-100"
                   onClick={closeMenu}
                 >
@@ -194,7 +190,7 @@ const Navbar = () => {
                 visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
               }}
             >
-              <CommonButton variant="dark">View projects</CommonButton>
+              <CommonButton variant="dark" href="#portfolio">View projects</CommonButton>
             </motion.div>
           </div>
         </motion.nav>

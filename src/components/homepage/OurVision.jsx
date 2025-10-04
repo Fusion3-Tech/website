@@ -81,7 +81,7 @@ const OurVision = () => {
             variants={fadeInVariant}
             className="our-vision-btns-wrapper"
           >
-            <CommonButton variant="light">View projects</CommonButton>
+            <CommonButton href="#portfolio" variant="light">View projects</CommonButton>
             <CommonButton href="/#get-in-touch" variant="dark">
               Get in touch
             </CommonButton>

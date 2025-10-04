@@ -59,7 +59,7 @@ const Hero = () => {
 
           {/* Buttons */}
           <motion.div variants={fadeUpVariant} className="hero-btn-wrapper">
-            <CommonButton variant="light">View projects</CommonButton>
+            <CommonButton variant="light" href="#portfolio">View projects</CommonButton>
             <CommonButton href="/#get-in-touch" variant="dark">
               Discover fusion3
             </CommonButton>

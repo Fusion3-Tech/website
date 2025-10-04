@@ -85,7 +85,7 @@ const Mission = () => {
           </motion.div>
 
           <motion.div variants={fadeUpVariant}>
-            <CommonButton className="portfolio-btn" variant="light">
+            <CommonButton className="portfolio-btn" href="#portfolio" variant="light">
               View projects
             </CommonButton>
           </motion.div>

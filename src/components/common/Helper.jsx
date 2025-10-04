@@ -1,7 +1,7 @@
 export const navLinks = [
   { name: "Company", href: "#mission" },
   { name: "Ecosystem", href: "#vision" },
-  { name: "Region X", href: "#portfolio" },
+  { name: "Projects", href: "#portfolio" },
   { name: "Founders & Advisors", href: "#founders" },
 ];
 export const trustedLogoData = [

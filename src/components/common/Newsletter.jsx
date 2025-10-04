@@ -52,7 +52,7 @@ const Newsletter = () => {
             variants={itemVariants}
             className="newsletter-btn-wrapper"
           >
-            <CommonButton variant="light">View projects</CommonButton>
+            <CommonButton variant="light" href="#portfolio">View projects</CommonButton>
             <CommonButton variant="dark">Contact Us</CommonButton>
           </motion.div>
         </motion.div>
