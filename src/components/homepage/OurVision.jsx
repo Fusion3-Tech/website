@@ -72,7 +72,7 @@ const OurVision = () => {
               headingVariant="sub"
               variant="small"
               blueText="We design, develop, and manage"
-              whiteSecondText="innovative projects in the"
+              whiteSecondText="next-generation projects in the"
               blueEndText="Polkadot ecosystem."
             />
           </motion.div>
