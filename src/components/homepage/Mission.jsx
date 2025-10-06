@@ -57,9 +57,9 @@ const Mission = () => {
           <motion.div variants={fadeUpVariant}>
             <Heading variant="white" className="text-start mission-heading">
               <span className="mission-start-heading">
-                We build meaningful
+                We build projects
               </span>{" "}
-              Web3 projects.
+              with Web3 principles in mind.
             </Heading>
           </motion.div>
 
