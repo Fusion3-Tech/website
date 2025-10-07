@@ -1,7 +1,8 @@
 import Link from "next/link";
+import Image from "next/image"; // ⬅️ add this
 import BackToTop from "./BackToTop";
 import { footerContact, footerSitemap, footerSocials } from "./Helper";
-import { FooterLogo } from "./Icons";
+// import { FooterLogo } from "./Icons"; // ⬅️ no longer needed here (keep it if used elsewhere)
 
 const Footer = () => {
   return (
@@ -9,11 +10,16 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-data-wrapper">
           <Link href="/" className="footer-logo">
-            <FooterLogo className="footer-logo-icon" />
-            <span className="footer-logo-text font-normal -tracking-64 text-10xl leading-104 text-primary">
-              fusion3
-            </span>
+            <Image
+              src="/Fusion3logo.png" // put the file in /public/Fusion3logo.png
+              alt="Fusion3"
+              width={436} // tweak to your desired size
+              height={108}
+              className="footer-logo-icon"
+              priority
+            />
           </Link>
+
           <div className="footer-items-wrapper">
             <div className="footer-section">
               <h3 className="font-medium text-5xl text-white leading-130">
@@ -32,6 +38,7 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
+
             {/* Socials */}
             <div className="footer-section">
               <h3 className="font-medium text-5xl text-white leading-130">
@@ -41,7 +48,7 @@ const Footer = () => {
                 {footerSocials.map((item, index) => (
                   <li key={index}>
                     <Link
-                    target="_blank"
+                      target="_blank"
                       className="font-medium text-white-60 leading-150 text-2xl"
                       href={item.href}
                     >
@@ -51,6 +58,7 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
+
             <div className="footer-section">
               <h3 className="font-medium text-5xl text-white leading-130">
                 Contact us
@@ -70,6 +78,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
         <div className="copyright-wrapper">
           <BackToTop />
           <span className="font-medium text-xl leading-130 text-white">
@@ -78,7 +87,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );c
+  );
 };
 
 export default Footer;

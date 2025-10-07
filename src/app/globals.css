@@ -391,8 +391,8 @@ button {
 .header-hero-wrapper {
   background: linear-gradient(
     174.24deg,
-    #171557 -7.28%,
-    #3e29a0 5.07%,
+    #1c1c2c -47.28%,
+    #090711 5.07%,
     #15162b 95.58%
   );
 }
@@ -410,7 +410,7 @@ button {
 .hero-image-wrapper {
   position: relative;
   width: 100%;
-  max-width: 420px;
+  max-width: 700px;
   aspect-ratio: 807 / 578;
   margin-left: auto;
   margin-right: auto;
@@ -452,7 +452,6 @@ button {
   margin: 0 auto;
   z-index: 20;
 }
-
 .trusted-by-container {
   max-width: 913px;
 }
@@ -471,23 +470,30 @@ button {
   max-width: 144px;
   max-height: 33px;
 }
-.left-gradient-layer {
-  background: linear-gradient(90deg, rgba(12, 13, 14, 0) 0%, #0c0d0e 52.73%);
+/* Only if you want to make it 100% non-interactive */
+
+.right-gradient-layer {
+  background: linear-gradient(90deg, rgba(12, 13, 14, 0) 0%, #0c0d0e00);
+  opacity: 100%;
+  filter: blur(4px);
   max-width: 150px;
-  height: 100%;
+  height: 200%;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   z-index: 10;
   width: 100%;
-  rotate: -180deg;
 }
 .right-gradient-layer {
-  background: linear-gradient(90deg, rgba(12, 13, 14, 0) 0%, #0c0d0e 55.99%);
-  opacity: 70%;
+  background: linear-gradient(
+    90deg,
+    rgba(24, 118, 212, 0) 0%,
+    rgba(24, 118, 212, 0) 0%
+  );
+  opacity: 100%;
   filter: blur(4px);
   max-width: 150px;
-  height: 100%;
+  height: 200%;
   position: absolute;
   right: 0;
   top: 0;
@@ -590,7 +596,7 @@ button {
 }
 
 .footer-logo-icon {
-  width: 50px;
+  width: 200px;
   height: 50px;
 }
 
@@ -1401,7 +1407,7 @@ button {
     gap: 40px;
   }
   .hero-image-wrapper {
-    max-width: 400px;
+    max-width: 500px;
   }
 }
 @media (min-width: 640.99px) {
@@ -1421,7 +1427,7 @@ button {
     display: none !important;
   }
   .hero-image-wrapper {
-    max-width: 450px;
+    max-width: 700px;
   }
   .portfolio-layer {
     top: 32%;
@@ -1574,7 +1580,7 @@ button {
     gap: 21px;
   }
   .footer-logo-icon {
-    width: 65px;
+    width: 265px;
     height: 65px;
   }
   .footer-items-wrapper {
@@ -1647,7 +1653,7 @@ button {
     width: 60%;
   }
   .hero-image-wrapper {
-    max-width: 420px;
+    max-width: 700px;
   }
   .portfolio-layer {
     top: 32%;
@@ -1733,7 +1739,7 @@ button {
     padding: 64px 0px;
   }
   .footer-logo-icon {
-    width: 80px;
+    width: 320px;
     height: 80px;
   }
   .footer-items-wrapper {
@@ -1768,7 +1774,7 @@ button {
 
 @media (min-width: 1024px) {
   .hero-image-wrapper {
-    max-width: 420px;
+    max-width: 700px;
   }
 
   .vision-polka-icon {
@@ -1801,7 +1807,7 @@ button {
     display: none;
   }
   .hero-image-wrapper {
-    max-width: 330px;
+    max-width: 700px;
   }
   .portfolio-layer {
     top: 30%;
@@ -1938,8 +1944,8 @@ button {
     margin-top: 103px;
   }
   .footer-logo-icon {
-    width: 104px;
-    height: 104px;
+    width: 436px;
+    height: 108px;
   }
 }
 @media (min-width: 1200.99px) {
@@ -1948,23 +1954,23 @@ button {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 360px;
+    max-width: 700px;
   }
 }
 @media (min-width: 1300px) {
   .hero-image-wrapper {
-    max-width: 410px;
+    max-width: 700px;
   }
 }
 @media (min-width: 1350px) {
   .hero-image-wrapper {
-    max-width: 440px;
+    max-width: 700px;
   }
 }
 
 @media (min-width: 1400px) {
   .hero-image-wrapper {
-    max-width: 500px;
+    max-width: 700px;
   }
 }
 @media (min-width: 1430px) {
@@ -1974,12 +1980,12 @@ button {
 }
 @media (min-width: 1500px) {
   .hero-image-wrapper {
-    max-width: 510px;
+    max-width: 700px;
   }
 }
 @media (min-width: 1700px) {
   .hero-image-wrapper {
-    max-width: 640px;
+    max-width: 700px;
   }
 }
 @media (min-width: 1800px) {
