@@ -196,11 +196,7 @@ const Navbar = () => {
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
               }}
-            >
-              <CommonButton variant="dark" href="#portfolio">
-                View projects
-              </CommonButton>
-            </motion.div>
+            ></motion.div>
           </div>
         </motion.nav>
       </div>
