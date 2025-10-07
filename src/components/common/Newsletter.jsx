@@ -50,10 +50,14 @@ const Newsletter = () => {
           {/* Buttons */}
           <motion.div
             variants={itemVariants}
-            className="newsletter-btn-wrapper"
+            className="newsletter-btn-wrapper newsletter-btn-equal"
           >
-            <CommonButton variant="light" href="#portfolio">View projects</CommonButton>
-            <CommonButton variant="dark" href="mailto:contact@fusion3.tech">Contact Us</CommonButton>
+            <CommonButton variant="light" href="#portfolio">
+              View projects
+            </CommonButton>
+            <CommonButton variant="dark" href="mailto:contact@fusion3.tech">
+              Contact Us
+            </CommonButton>
           </motion.div>
         </motion.div>
       </div>
