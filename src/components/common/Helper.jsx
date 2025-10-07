@@ -99,8 +99,8 @@ export const portfolioDataList = [
   {
     icon: "/assets/images/webp/sol-xcm-icon.png",
     desc: "A project that provides a typed interface for generating XCM messages from Solidity smart contracts, enabling seamless interoperability.",
-    appUrl: "#",
-    githubUrl: "#",
+    appUrl: "https://github.com/Fusion3-Tech/sol-xcm",
+    githubUrl: "https://github.com/Fusion3-Tech/sol-xcm",
     image: "/assets/images/webp/sol-xcm-image.png",
   },
 ];

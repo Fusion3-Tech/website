@@ -18,10 +18,10 @@ const PortfolioCard = ({ item }) => {
      {item.desc}
           </Paragraph>
           <div className="portfolio-card-btn-wrapper">
-            <button className="portfolio-card-app-btn text-black font-semibold font-funnel text-xl leading-150">
+            <button onClick={() => window.open(item.appUrl, "_blank")} className="portfolio-card-app-btn text-black font-semibold font-funnel text-xl leading-150">
               Open App
             </button>
-            <button className="portfolio-card-github-btn text-white font-semibold font-funnel text-xl leading-150">
+            <button onClick={() => window.open(item.githubUrl, "_blank")} className="portfolio-card-github-btn text-white font-semibold font-funnel text-xl leading-150">
               <Github className="github-icon" /> Github
             </button>
           </div>

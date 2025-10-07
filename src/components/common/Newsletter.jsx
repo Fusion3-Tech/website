@@ -53,7 +53,7 @@ const Newsletter = () => {
             className="newsletter-btn-wrapper"
           >
             <CommonButton variant="light" href="#portfolio">View projects</CommonButton>
-            <CommonButton variant="dark">Contact Us</CommonButton>
+            <CommonButton variant="dark" href="mailto:contact@fusion3.tech">Contact Us</CommonButton>
           </motion.div>
         </motion.div>
       </div>
