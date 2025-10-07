@@ -4,12 +4,16 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
 }
 
 body {
   font-family: "Figtree", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+  inset: 0;
+  width: 100%;
 }
 
 * {
@@ -144,7 +148,11 @@ button {
   font-family: "Figtree", sans-serif !important;
   padding: 9px 16px !important;
 }
-
+@media (max-width: 641px) {
+  .cta-button-sm {
+    display: none !important;
+  }
+}
 .cta-button-max-sm {
   display: none;
 }
@@ -1942,32 +1950,32 @@ button {
 }
 
 @media (min-width: 1400px) {
-    .hero-image-wrapper {
+  .hero-image-wrapper {
     max-width: 500px;
   }
 }
 @media (min-width: 1430px) {
-    .hero-image-wrapper {
+  .hero-image-wrapper {
     max-width: 700px;
   }
 }
 @media (min-width: 1500px) {
-      .hero-image-wrapper {
+  .hero-image-wrapper {
     max-width: 510px;
   }
 }
 @media (min-width: 1700px) {
-        .hero-image-wrapper {
+  .hero-image-wrapper {
     max-width: 640px;
   }
 }
 @media (min-width: 1800px) {
-        .hero-image-wrapper {
+  .hero-image-wrapper {
     max-width: 700px;
   }
 }
 @media (min-width: 1900px) {
-          .hero-image-wrapper {
+  .hero-image-wrapper {
     max-width: 807px;
   }
 }
