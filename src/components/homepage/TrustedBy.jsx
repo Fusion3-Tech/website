@@ -16,13 +16,22 @@ const TrustedBy = () => {
         <Swiper
           className="logo-slider"
           modules={[Autoplay]}
-          freeMode
           loop
-          grabCursor
-          slidesPerView="2.2"
+          // smooth marquee-style movement
+          freeMode={{ enabled: true, momentum: false }}
+          speed={3000}
+          autoplay={{
+            delay: 0,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: false,
+          }}
+          // block user dragging
+          allowTouchMove={false}
+          simulateTouch={false}
+          followFinger={false}
+          grabCursor={false}
+          slidesPerView={2.2}
           spaceBetween={24}
-          speed={6000}
-          autoplay={{ delay: 0, disableOnInteraction: false }}
           breakpoints={{
             400: { slidesPerView: 2.6 },
             450: { slidesPerView: 3 },
@@ -33,8 +42,8 @@ const TrustedBy = () => {
             1024: { slidesPerView: 5, spaceBetween: 72 },
           }}
         >
-          {trustedLogoData.map((item, index) => (
-            <SwiperSlide key={index}>
+          {trustedLogoData.map((item, idx) => (
+            <SwiperSlide key={idx}>
               <div className="logo-parent">
                 <Image
                   src={item}
@@ -42,6 +51,8 @@ const TrustedBy = () => {
                   width={144}
                   height={33}
                   className="logo-slider-image"
+                  draggable={false}
+                  onDragStart={(e) => e.preventDefault()}
                 />
               </div>
             </SwiperSlide>
