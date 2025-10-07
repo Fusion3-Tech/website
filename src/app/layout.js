@@ -30,7 +30,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${figtree.variable} ${funnel.variable}`}>
-      <body className={figtree.className}>{children}</body>
+      <body className={figtree.className}>
+        <div id="app-scroll" className="app-scroll">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

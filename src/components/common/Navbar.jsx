@@ -6,7 +6,6 @@ import { navLinks } from "./Helper";
 import { Cross, Logo, Menu } from "./Icons";
 import { motion } from "framer-motion"; // <-- Import framer motion
 
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -35,23 +34,23 @@ const Navbar = () => {
     };
   }, [isMenuOpen]);
 
-    const navLinksVariant = {
-      hidden: { opacity: 0, y: -20 },
-      visible: (i) => ({
-        opacity: 1,
-        y: 0,
-        transition: { delay: i * 0.1, duration: 0.5 },
-      }),
-    };
+  const navLinksVariant = {
+    hidden: { opacity: 0, y: -20 },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: { delay: i * 0.1, duration: 0.5 },
+    }),
+  };
 
-    const logoButtonsVariant = {
-      hidden: { opacity: 0, y: -20 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: { delay: 0.5, duration: 0.5 },
-      },
-    };
+  const logoButtonsVariant = {
+    hidden: { opacity: 0, y: -20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { delay: 0.5, duration: 0.5 },
+    },
+  };
 
   return (
     <>
@@ -97,7 +96,9 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6, ease: "easeOut" }}
             >
-              <CommonButton variant="dark" href="#portfolio">View projects</CommonButton>
+              <CommonButton variant="dark" href="#portfolio">
+                View projects
+              </CommonButton>
             </motion.div>
 
             <motion.div
@@ -114,7 +115,9 @@ const Navbar = () => {
                   Contact us
                 </Link>
                 <div className="cta-button-max-sm">
-                  <CommonButton variant="dark" href="#portfolio">View projects</CommonButton>
+                  <CommonButton variant="dark" href="#portfolio">
+                    View projects
+                  </CommonButton>
                 </div>
               </div>
               <button
@@ -156,7 +159,11 @@ const Navbar = () => {
                   key={index}
                   variants={{
                     hidden: { opacity: 0, y: 20 },
-                    visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                      transition: { duration: 0.4 },
+                    },
                   }}
                 >
                   <Link
@@ -190,7 +197,9 @@ const Navbar = () => {
                 visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
               }}
             >
-              <CommonButton variant="dark" href="#portfolio">View projects</CommonButton>
+              <CommonButton variant="dark" href="#portfolio">
+                View projects
+              </CommonButton>
             </motion.div>
           </div>
         </motion.nav>

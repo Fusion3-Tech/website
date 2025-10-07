@@ -15,9 +15,9 @@ const Heading = (
     gradientBlueText = "",
     blueText = "",
     whiteText = "",
-    whiteSecondText="",
+    whiteSecondText = "",
     blueEndText = "",
-    blueTextClass="",
+    blueTextClass = "",
     ...props
   },
   ref
@@ -34,7 +34,9 @@ const Heading = (
       {gradientBlueText && (
         <span className="text-gradient-purple">{gradientBlueText}</span>
       )}
-      {blueText && <span className={`text-primary ${blueTextClass}`}>{blueText} </span>}
+      {blueText && (
+        <span className={`text-primary ${blueTextClass}`}>{blueText} </span>
+      )}
       {whiteSecondText && (
         <span className="text-white">{whiteSecondText} </span>
       )}
