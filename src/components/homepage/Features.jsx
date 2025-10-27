@@ -9,7 +9,7 @@ export default function Features() {
         <FeatureCard
           icon={<SecureIcon />}
           title="Secure"
-          description="Fusion3 develops projects on the Polkadot ecosystem using robust, secure, and future-proof blockchain principles."
+          description="Fusion3 develops Web3 projects using robust, secure, and future-proof blockchain principles."
           link="#"
           size="large"
           bgImage="/assets/images/webp/secure-bg.webp"
