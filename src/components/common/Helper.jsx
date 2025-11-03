@@ -7,12 +7,16 @@ export const navLinks = [
 export const trustedLogoData = [
   "/assets/images/webp/polka-icon.webp",
   "/assets/images/webp/region-icon.webp",
+  "/assets/images/webp/xcavate-icon.webp",
   "/assets/images/webp/polka-icon.webp",
   "/assets/images/webp/region-icon.webp",
+  "/assets/images/webp/xcavate-icon.webp",
   "/assets/images/webp/polka-icon.webp",
   "/assets/images/webp/region-icon.webp",
+  "/assets/images/webp/xcavate-icon.webp",
   "/assets/images/webp/polka-icon.webp",
   "/assets/images/webp/region-icon.webp",
+  "/assets/images/webp/xcavate-icon.webp",
 ];
 
 export const footerSitemap = [
