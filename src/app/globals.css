@@ -1231,6 +1231,7 @@ button {
   max-height: 115px;
   position: relative;
   z-index: 10;
+  transform: translateY(-8px);
 }
 
 .vision-badge {
@@ -1638,6 +1639,7 @@ button {
   .vision-polka-icon {
     object-fit: cover;
     max-width: 280px;
+    transform: translateY(-10px);
   }
   .vision-badge-arrow-2 {
     right: 19%;

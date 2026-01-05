@@ -81,7 +81,9 @@ const OurVision = () => {
             variants={fadeInVariant}
             className="our-vision-btns-wrapper"
           >
-            <CommonButton href="#portfolio" variant="light">View projects</CommonButton>
+            <CommonButton href="#portfolio" variant="light">
+              View projects
+            </CommonButton>
             <CommonButton href="/#get-in-touch" variant="dark">
               Get in touch
             </CommonButton>
@@ -98,9 +100,9 @@ const OurVision = () => {
           {/* Polka Icon */}
           <motion.div variants={scaleUpVariant}>
             <Image
-              src="/assets/images/webp/our-vision-polkadot.webp"
-              width={304}
-              height={115}
+              src="/assets/images/webp/fusion3-vision1.svg"
+              width={290}
+              height={92}
               className="vision-polka-icon"
               alt="polkadot-icon"
               priority
