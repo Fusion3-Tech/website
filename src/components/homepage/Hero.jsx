@@ -7,7 +7,6 @@ import Heading from "../common/Heading";
 import Paragraph from "../common/Paragraph";
 
 const Hero = () => {
-  // Variants
   const containerVariants = {
     hidden: {},
     visible: {
@@ -42,8 +41,8 @@ const Hero = () => {
               className="text-center hero-heading mx-auto"
               variant="large"
               headingVariant="main"
-              whiteText="Developing the next "
-              gradientBlueText="wave of Web3"
+              whiteText="Infrastructure & "
+              gradientBlueText="Intelligence Consultancy"
             />
           </motion.div>
 
@@ -53,15 +52,15 @@ const Hero = () => {
               variant="extraLarge"
               className="hero-para text-center mx-auto"
             >
-              Fusion3 works on projects that push Web3 forward and help drive adoption
+              We design and deploy high-performance digital systems for organizations operating at the edge of technical complexity.
             </Paragraph>
           </motion.div>
 
           {/* Buttons */}
           <motion.div variants={fadeUpVariant} className="hero-btn-wrapper">
-            <CommonButton variant="light" href="#portfolio">View projects</CommonButton>
-            <CommonButton href="/#get-in-touch" variant="dark">
-              Discover fusion3
+            <CommonButton variant="light" href="#contact">Work With Us</CommonButton>
+            <CommonButton href="#capabilities" variant="dark">
+              Explore Capabilities
             </CommonButton>
           </motion.div>
         </motion.div>

@@ -15,9 +15,9 @@ const funnel = Funnel_Display({
 });
 
 export const metadata = {
-  title: "Fusion3",
+  title: "Fusion3 — Advanced Infrastructure & Intelligence Consultancy",
   description:
-    "Fusion3 works on projects that push Web3 forward and help drive adoption.",
+    "Fusion3 designs and deploys high-performance digital systems for ambitious organizations. Infrastructure architecture, intelligent systems, and strategic advisory.",
   openGraph: {
     images: [
       {

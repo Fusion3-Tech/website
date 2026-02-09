@@ -1,8 +1,8 @@
 export const navLinks = [
-  { name: "Company", href: "#mission" },
-  { name: "Ecosystem", href: "#vision" },
-  { name: "Projects", href: "#portfolio" },
-  { name: "Founders & Advisors", href: "#founders" },
+  { name: "Capabilities", href: "#capabilities" },
+  { name: "Philosophy", href: "#philosophy" },
+  { name: "Process", href: "#process" },
+  { name: "Leadership", href: "#leadership" },
 ];
 export const trustedLogoData = [
   "/assets/images/webp/polka-icon.webp",
@@ -19,12 +19,20 @@ export const trustedLogoData = [
   "/assets/images/webp/xcavate-icon.webp",
 ];
 
+export const clientTypes = [
+  "Technology startups",
+  "Financial platforms",
+  "Infrastructure-first companies",
+  "High-growth digital teams",
+  "Organizations building complex technical products",
+];
+
 export const footerSitemap = [
-  { name: "Our Vision", href: "#vision" },
-  { name: "Our Mission", href: "#mission" },
-  { name: "Portfolio", href: "#portfolio" },
-  { name: "Founders", href: "#founders" },
-  { name: "Contact", href: "#get-in-touch" },
+  { name: "Capabilities", href: "#capabilities" },
+  { name: "Philosophy", href: "#philosophy" },
+  { name: "Process", href: "#process" },
+  { name: "Leadership", href: "#leadership" },
+  { name: "Contact", href: "#contact" },
 ];
 export const footerSocials = [
   { name: "Linkedin", href: "https://www.linkedin.com/company/109154128/admin/dashboard/" },
@@ -36,58 +44,58 @@ export const footerContact = [
 
 export const reviewsDataList = [
   {
-    para: "Fusion3 gave our project the structure we were missing. Their mix of technical skill and strategic guidance helped us move faster and with more confidence.",
+    para: "Fusion3 brought the architectural clarity our platform needed. Their approach to infrastructure design fundamentally improved our system reliability and scalability.",
     image: "/assets/images/webp/elena.webp",
     name: "Elena Marquez",
-    position: "Blockchain Advisor at ChainLabs",
+    position: "Technical Advisor, ChainLabs",
   },
   {
-    para: "What impressed us most was how Fusion3 balances innovation with usability. They don’t just build tech, they build solutions people can actually adopt.",
+    para: "What sets Fusion3 apart is their ability to see the full picture. They don't just build features — they engineer systems designed to handle real-world complexity at scale.",
     image: "/assets/images/webp/david.webp",
     name: "David Kim",
-    position: "Founder of Nova Protocol",
+    position: "Founder, Nova Protocol",
   },
   {
-    para: "From idea to execution, Fusion3 made the process smooth. It felt like having a true partner who cared about our success as much as we did.",
+    para: "From architecture to deployment, Fusion3 operated as an extension of our team. The precision and foresight they brought to our infrastructure was exceptional.",
     image: "/assets/images/webp/tim.webp",
     name: "Tim Samson",
-    position: "Blockchain Advisor at ChainLabs",
+    position: "CTO, Distributed Systems Group",
   },
 ];
 
 export const journeyData = [
   {
     section: "Discovery",
-    heading: "We start by identifying strong demand.",
+    heading: "We map the problem space before writing a single line of code.",
     description:
-      "Through research and dialogue, we uncover opportunities and define the foundation of a project when we see strong demand.",
-    contact: "Contact us",
+      "Through structured analysis and stakeholder dialogue, we identify architectural requirements, system constraints, and strategic priorities that define the engagement scope.",
+    contact: "Start a conversation",
     image: "/assets/images/webp/discovery-1.webp",
   },
   {
-    section: "Strategy",
+    section: "Architecture",
     heading:
-      "We design a clear roadmap aligned with the vision of Web3.",
+      "We design systems with durability, performance, and adaptability at their core.",
     description:
-      "Every step is planned to ensure focus, efficiency, and alignment with project's long-term goals.",
-    contact: "Contact us",
+      "Every technical decision is evaluated against long-term operational requirements. We produce detailed system blueprints that account for scale, security, and integration complexity.",
+    contact: "Start a conversation",
     image: "/assets/images/webp/discovery-2.webp",
   },
   {
     section: "Build",
     heading:
-      "Our team develops robust solutions, delivering high-quality end-to-end projects.",
+      "Our engineering team delivers production-grade systems with precision.",
     description:
-      "We transform strategies into tangible projects, built with precision and tested for reliability.",
-    contact: "Contact us",
+      "We transform architectural plans into robust, tested infrastructure. Every component is built to withstand real-world conditions and integrate cleanly with existing systems.",
+    contact: "Start a conversation",
     image: "/assets/images/webp/discovery-3.webp",
   },
   {
     section: "Scale",
-    heading: "We optimize and expand projects to achieve sustainable growth.",
+    heading: "We optimize, monitor, and evolve systems as requirements grow.",
     description:
-      "Continuous improvement and integration ensure that each solution evolves over time.",
-    contact: "Contact us",
+      "Post-deployment, we refine performance, extend capabilities, and ensure each system continues to meet the demands of a changing operational environment.",
+    contact: "Start a conversation",
     image: "/assets/images/webp/discovery-4.webp",
   },
 ];
@@ -95,14 +103,14 @@ export const journeyData = [
 export const portfolioDataList = [
   {
     icon: "/assets/images/webp/region-green-icon.webp",
-    desc: "RegionX provides essential infrastructure for Polkadot’s Agile Coretime model, serving as the primary application for interaction and the only secondary marketplace for Coretime",
+    desc: "RegionX provides essential infrastructure for Polkadot's Agile Coretime model, serving as the primary application for resource management and the only secondary marketplace for Coretime within the ecosystem.",
     appUrl: "https://hub.regionx.tech/",
     githubUrl: "https://github.com/RegionX-Labs",
     image: "/assets/images/webp/region-dashboard.webp",
   },
   {
     icon: "/assets/images/webp/sol-xcm-icon.png",
-    desc: "A project that provides a typed interface for generating XCM messages from Solidity smart contracts, enabling seamless interoperability.",
+    desc: "A typed interface for generating XCM messages from Solidity smart contracts, enabling seamless cross-chain interoperability between EVM-based environments and Polkadot's messaging layer.",
     appUrl: "https://github.com/Fusion3-Tech/sol-xcm",
     githubUrl: "https://github.com/Fusion3-Tech/sol-xcm",
     image: "/assets/images/webp/sol-xcm-image.png",
@@ -112,16 +120,16 @@ export const portfolioDataList = [
 export const foundersDataList = [
   {
     image: "/assets/images/webp/sergej-jr.png",
-    role: "CEO & Development Lead",
+    role: "CEO & Engineering Lead",
     name: "Sergej Sakac",
-    desc: "Sergej is the founder of the RegionX project. He is a member of the Polkadot Fellowship and has been an external core contributor to Substrate and Polkadot for over three years. Sergej is also an engineering alumnus of the Polkadot Blockchain Academy (PBA) at UC Berkeley.",
+    desc: "Sergej is the founder of the RegionX project and a member of the Polkadot Fellowship. He has been a core contributor to Substrate and Polkadot for over three years, with deep expertise in distributed systems and protocol-level infrastructure. He is an engineering alumnus of the Polkadot Blockchain Academy at UC Berkeley.",
     href: "https://www.linkedin.com/in/sergej-sakac-334a47252/",
   },
   {
     image: "/assets/images/webp/sergej-sr.png",
     role: "COO",
     name: "Sergej N. Sakac",
-    desc: "Sergej N. Sakac is an engineer with a master's degree and over 20 years of experience in organizational roles within the IT and engineering industries. He is responsible for the operational functions of Fusion3's projects.",
+    desc: "Sergej N. Sakac is an engineer with a master's degree and over 20 years of experience in organizational leadership across IT and engineering industries. He oversees operational strategy, delivery execution, and the structural integrity of every engagement.",
     href: "https://www.linkedin.com/in/sergej-n-sakac-617514a3/",
   },
 ];

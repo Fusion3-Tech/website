@@ -395,6 +395,18 @@ button {
     #090711 5.07%,
     #15162b 95.58%
   );
+  position: relative;
+}
+.header-hero-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(12, 13, 14, 0), rgba(12, 13, 14, 1));
+  z-index: 1;
+  pointer-events: none;
 }
 
 .hero {
@@ -572,6 +584,18 @@ button {
     #836dfb -19.71%,
     rgba(12, 13, 14, 0) 100.05%
   );
+  position: relative;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to bottom, rgba(12, 13, 14, 1), rgba(12, 13, 14, 0));
+  z-index: 1;
+  pointer-events: none;
 }
 
 .footer-container {
@@ -1091,17 +1115,57 @@ button {
 /* <==========> FOUNDERS <==========> */
 
 .founders {
-  margin-top: -100px;
-  padding-top: 48px;
-  padding-bottom: 24px;
+  padding-top: 140px;
+  padding-bottom: 100px;
   background-image: url(../../public/assets/images/webp/founders-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  position: relative;
+}
+.founders::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    to bottom,
+    rgba(12, 13, 14, 1) 0%,
+    rgba(12, 13, 14, 0.95) 20%,
+    rgba(12, 13, 14, 0.8) 40%,
+    rgba(12, 13, 14, 0.5) 60%,
+    rgba(12, 13, 14, 0.2) 80%,
+    rgba(12, 13, 14, 0) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+.founders::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(
+    to top,
+    rgba(12, 13, 14, 1) 0%,
+    rgba(12, 13, 14, 0.95) 20%,
+    rgba(12, 13, 14, 0.8) 40%,
+    rgba(12, 13, 14, 0.5) 60%,
+    rgba(12, 13, 14, 0.2) 80%,
+    rgba(12, 13, 14, 0) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
 }
 .founders-container {
   max-width: 1072px;
   width: 100%;
+  position: relative;
+  z-index: 2;
 }
 .founders-header-wrapper {
   display: flex;
@@ -1191,6 +1255,18 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  position: relative;
+}
+.our-vision::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(12, 13, 14, 1), rgba(12, 13, 14, 0));
+  z-index: 1;
+  pointer-events: none;
 }
 .our-vision-container {
   max-width: 824px;
@@ -1449,8 +1525,8 @@ button {
     margin-bottom: 32px;
   }
   .founders {
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 140px;
+    padding-bottom: 100px;
   }
   .founder-card-wrapper {
     margin-top: 56px;
@@ -1670,8 +1746,8 @@ button {
     justify-content: start;
   }
   .founders {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 140px;
+    padding-bottom: 100px;
   }
   .founder-card-wrapper {
     margin-top: 64px;
@@ -1824,8 +1900,8 @@ button {
     max-width: 450px;
   }
   .founders {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 140px;
+    padding-bottom: 100px;
   }
   .founder-card-wrapper {
     margin-top: 88px;
@@ -1931,8 +2007,8 @@ button {
     padding-bottom: 120px;
   }
   .founders {
-    padding-top: 104px;
-    padding-bottom: 104px;
+    padding-top: 140px;
+    padding-bottom: 100px;
   }
   .journey {
     padding-bottom: 144px;

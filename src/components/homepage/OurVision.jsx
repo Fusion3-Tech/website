@@ -9,8 +9,6 @@ import { Contract, Ecosystem, Infrastructure, Research } from "../common/Icons";
 import VisionBadge from "./VisionBadge";
 
 const OurVision = () => {
-  // Scale-up for polka icon & dots
-  // 1. Fade-in with y-lift (only for header: badge → heading → buttons)
   const fadeInVariant = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -20,7 +18,6 @@ const OurVision = () => {
     },
   };
 
-  // 2. Scale-up for Polka icon
   const scaleUpVariant = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: {
@@ -30,7 +27,6 @@ const OurVision = () => {
     },
   };
 
-  // 3. Pure opacity fade (badges, arrows, dots)
   const fadeOpacityVariant = {
     hidden: { opacity: 0 },
     visible: {
@@ -39,20 +35,18 @@ const OurVision = () => {
     },
   };
 
-  // Header stagger
   const headerStagger = {
     hidden: {},
     visible: { transition: { staggerChildren: 0.3 } },
   };
 
-  // Badges stagger
   const badgeContainerVariants = {
     hidden: {},
     visible: { transition: { staggerChildren: 0.2 } },
   };
 
   return (
-    <section id="vision" className="our-vision section-x-gap">
+    <section id="capabilities" className="our-vision section-x-gap">
       <div className="our-vision-container mx-auto">
         {/* Header */}
         <motion.div
@@ -63,7 +57,7 @@ const OurVision = () => {
           variants={headerStagger}
         >
           <motion.div variants={fadeInVariant}>
-            <Badge center>Our Vision</Badge>
+            <Badge center>What We Do</Badge>
           </motion.div>
 
           <motion.div variants={fadeInVariant}>
@@ -71,9 +65,9 @@ const OurVision = () => {
               className="our-vision-heading text-center"
               headingVariant="sub"
               variant="small"
-              blueText="We design, develop, and manage"
-              whiteSecondText="next-generation Web3 projects in"
-              blueEndText="leading blockchain ecosystems."
+              blueText="We architect, build, and operate"
+              whiteSecondText="complex digital systems that"
+              blueEndText="deliver lasting performance."
             />
           </motion.div>
 
@@ -81,11 +75,11 @@ const OurVision = () => {
             variants={fadeInVariant}
             className="our-vision-btns-wrapper"
           >
-            <CommonButton href="#portfolio" variant="light">
-              View projects
+            <CommonButton href="#contact" variant="light">
+              Work with us
             </CommonButton>
-            <CommonButton href="/#get-in-touch" variant="dark">
-              Get in touch
+            <CommonButton href="#contact" variant="dark">
+              Start a conversation
             </CommonButton>
           </motion.div>
         </motion.div>
@@ -104,7 +98,7 @@ const OurVision = () => {
               width={290}
               height={92}
               className="vision-polka-icon"
-              alt="polkadot-icon"
+              alt="fusion3-icon"
               priority
               sizes="(max-width: 768px) 60vw, 304px"
             />
@@ -122,7 +116,7 @@ const OurVision = () => {
                 className="vision-badge-1"
                 icon={<Contract className="vision-badge-icons" />}
               >
-                Smart contracts
+                Architecture
               </VisionBadge>
             </motion.div>
 
@@ -131,7 +125,7 @@ const OurVision = () => {
                 className="vision-badge-2"
                 icon={<Ecosystem className="vision-badge-icons" />}
               >
-                Ecosystem
+                Integration
               </VisionBadge>
             </motion.div>
 
@@ -149,7 +143,7 @@ const OurVision = () => {
                 className="vision-badge-4"
                 icon={<Research className="vision-badge-icons" />}
               >
-                Research & Innovation
+                Intelligence
               </VisionBadge>
             </motion.div>
           </motion.div>

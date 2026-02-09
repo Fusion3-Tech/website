@@ -16,10 +16,9 @@ import PortfolioCard from "./PortfolioCard";
 import { NavigationArrow } from "../common/Icons";
 
 const Portfolio = () => {
-  // Parent container variants for staggered fade-in
   const containerVariants = {
     hidden: {},
-    show: { transition: { staggerChildren: 0.3 } }, // delay each child
+    show: { transition: { staggerChildren: 0.3 } },
   };
 
   const itemVariants = {
@@ -28,7 +27,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="portfolio" className="portfolio">
+    <section id="work" className="portfolio">
       <div className="portfolio-container mx-auto">
         <motion.div
           className="portfolio-content-wrapper section-x-gap mx-auto"
@@ -39,7 +38,7 @@ const Portfolio = () => {
         >
           {/* Badge */}
           <motion.div variants={itemVariants}>
-            <Badge center>Portfolio</Badge>
+            <Badge center>Selected Work</Badge>
           </motion.div>
 
           {/* Heading */}
@@ -47,8 +46,8 @@ const Portfolio = () => {
             <Heading
               variant="small"
               className="text-center mx-auto portfolio-heading"
-              whiteText="Turning Ideas"
-              blueText="into Reality"
+              whiteText="Systems Built for"
+              blueText="Real-World Complexity"
             />
           </motion.div>
 
@@ -58,15 +57,17 @@ const Portfolio = () => {
               variant="small"
               className="portfolio-para text-center mx-auto"
             >
-              Each project we work on is designed to push the boundaries of what’s possible 
-              in the Web3 space. Explore our projects to see how we turn ideas into reality.
+              Each engagement reflects our commitment to delivering infrastructure
+              that operates reliably under demanding conditions. These projects
+              demonstrate our capabilities across distributed systems, cross-network
+              integration, and high-performance architecture.
             </Paragraph>
           </motion.div>
 
           {/* View projects Button */}
           <motion.div variants={itemVariants}>
-            <CommonButton href="#portfolio" className="portfolio-btn" variant="light">
-              View projects
+            <CommonButton href="#contact" className="portfolio-btn" variant="light">
+              Start a conversation
             </CommonButton>
           </motion.div>
         </motion.div>
@@ -79,10 +80,6 @@ const Portfolio = () => {
             speed={500}
             effect="fade"
             fadeEffect={{ crossFade: true }}
-            // autoplay={{
-            //   delay: 3000,
-            //   disableOnInteraction: false,
-            // }}
             navigation={{
               prevEl: ".portfolio-prev",
               nextEl: ".portfolio-next",

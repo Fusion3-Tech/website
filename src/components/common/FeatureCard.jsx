@@ -68,7 +68,7 @@ export default function FeatureCard({
             className="feature-contact font-medium text-xl leading-130 text-white"
             href={link}
           >
-            See more <TopRightArrow className="journey-arrow" />
+            Learn more <TopRightArrow className="journey-arrow" />
           </Link>
         </motion.div>
       </motion.div>

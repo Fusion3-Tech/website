@@ -33,7 +33,7 @@ const Journey = () => {
   }, []);
 
   return (
-    <section className="journey section-x-gap">
+    <section id="process" className="journey section-x-gap">
       <div className="journey-container mx-auto">
         {/* Badge fade-in */}
         <motion.div
@@ -42,7 +42,7 @@ const Journey = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <Badge>How We Work</Badge>
+          <Badge>Our Process</Badge>
         </motion.div>
 
         {/* Heading fade-in with small delay */}
@@ -56,8 +56,8 @@ const Journey = () => {
             className="journey-heading"
             headingVariant="sub"
             variant="small"
-            blueText="Journey"
-            whiteSecondText="Behind Every Project"
+            blueText="The Method"
+            whiteSecondText="Behind Every Engagement"
           />
         </motion.div>
 

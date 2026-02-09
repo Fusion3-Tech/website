@@ -53,7 +53,7 @@ const JourneyCard = ({ index, card, activeTab }) => {
       <motion.div variants={itemVariants}>
         <Link
           className="journey-contact font-medium text-xl leading-130 text-white"
-          href="#"
+          href="#contact"
         >
           {card.contact} <TopRightArrow className="journey-arrow" />
         </Link>

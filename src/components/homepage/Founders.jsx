@@ -8,7 +8,6 @@ import Paragraph from "../common/Paragraph";
 import FounderCard from "./FounderCard";
 
 const Founders = () => {
-  // Variants for staggered fade-in
   const containerVariants = {
     hidden: {},
     show: { transition: { staggerChildren: 0.3 } },
@@ -20,7 +19,7 @@ const Founders = () => {
   };
 
   return (
-    <section id="founders" className="section-x-gap founders">
+    <section id="leadership" className="section-x-gap founders">
       <div className="founders-container mx-auto">
         <motion.div
           variants={containerVariants}
@@ -30,7 +29,7 @@ const Founders = () => {
         >
           {/* Badge */}
           <motion.div variants={itemVariants}>
-            <Badge className="founders-section-badge">Founders</Badge>
+            <Badge className="founders-section-badge">Leadership</Badge>
           </motion.div>
 
           {/* Heading */}
@@ -42,21 +41,22 @@ const Founders = () => {
               className="founder-heading"
               headingVariant="sub"
               variant="small"
-              whiteText="Meet the Founders Driving Fusion3 Forward"
+              whiteText="Engineering Leadership With Operational Depth"
             />
 
             {/* Paragraph */}
             <motion.div variants={itemVariants}>
               <Paragraph className="founder-para" variant="small">
-                Guided by vision and hands-on experience, Fusion3’s founders
-                bring complementary skills that bridge blockchain innovation
-                with real-world application.
+                Fusion3 is led by engineers with direct experience building
+                and operating infrastructure at protocol level. Our leadership
+                combines deep technical capability with structured operational
+                discipline.
               </Paragraph>
             </motion.div>
           </motion.div>
         </motion.div>
 
-        {/* Founder cards remain unchanged */}
+        {/* Founder cards */}
         <div className="founder-card-wrapper">
           {foundersDataList.map((item, index) => (
             <FounderCard key={index} item={item} />

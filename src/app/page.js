@@ -7,10 +7,7 @@ import Hero from "@/components/homepage/Hero";
 import Journey from "@/components/homepage/Journey";
 import Mission from "@/components/homepage/Mission";
 import OurVision from "@/components/homepage/OurVision";
-import Portfolio from "@/components/homepage/Portfolio";
-import Reviews from "@/components/homepage/Reviews";
 import TrustedBy from "@/components/homepage/TrustedBy";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,13 +20,12 @@ export default function Home() {
         <TrustedBy />
         <div className="overlay-blur"></div>
         <OurVision />
+        <div className="overlay-blur-bottom"></div>
       </div>
-      <Mission />
       <Features />
+      <Mission />
       <Journey />
-      <Portfolio />
       <Founders />
-      {/* <Reviews /> */}
       <Newsletter />
       <Footer />
     </main>

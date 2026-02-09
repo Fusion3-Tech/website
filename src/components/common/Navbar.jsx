@@ -96,8 +96,8 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6, ease: "easeOut" }}
             >
-              <CommonButton variant="dark" href="#portfolio">
-                View projects
+              <CommonButton variant="dark" href="#contact">
+                Work With Us
               </CommonButton>
             </motion.div>
 
@@ -110,13 +110,13 @@ const Navbar = () => {
               <div className="nav-buttons">
                 <Link
                   className="nav-contact text-md font-normal text-white-60 -tracking-15 leading-100"
-                  href="#get-in-touch"
+                  href="#contact"
                 >
                   Contact us
                 </Link>
                 <div className="cta-button-max-sm">
-                  <CommonButton variant="dark" href="#portfolio">
-                    View projects
+                  <CommonButton variant="dark" href="#contact">
+                    Work With Us
                   </CommonButton>
                 </div>
               </div>

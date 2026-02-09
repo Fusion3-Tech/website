@@ -1,6 +1,6 @@
 import React from "react";
 import FeatureCard from "../common/FeatureCard";
-import { InnovativeIcon, ReliableIcon, SecureIcon } from "../common/Icons";
+import { SecureIcon, ReliableIcon, InnovativeIcon } from "../common/Icons";
 
 export default function Features() {
   return (
@@ -8,9 +8,9 @@ export default function Features() {
       <div className="features-grid ">
         <FeatureCard
           icon={<SecureIcon />}
-          title="Secure"
-          description="Fusion3 develops Web3 projects using robust, secure, and future-proof blockchain principles."
-          link="#"
+          title="Infrastructure Architecture"
+          description="We build scalable, secure, and high-performance backend systems and digital foundations engineered for complex products and demanding operational environments."
+          link="#contact"
           size="large"
           bgImage="/assets/images/webp/secure-bg.webp"
           overlayProps={{
@@ -21,9 +21,9 @@ export default function Features() {
         />
         <FeatureCard
           icon={<ReliableIcon />}
-          title="Reliable"
-          description="Our processes ensure consistent results, from concept to deployment, for every project we manage."
-          link="#"
+          title="Intelligent Systems"
+          description="We implement data-driven, autonomous, and adaptive systems that improve decision-making and operational performance across every layer of your platform."
+          link="#contact"
           size="small"
           bgImage="/assets/images/webp/reliable-bg.webp"
           overlayProps={{
@@ -35,9 +35,9 @@ export default function Features() {
         />
         <FeatureCard
           icon={<InnovativeIcon />}
-          title="Innovative"
-          description="We use the latest technologies, including Agile Coretime, JAM, and Proof of Personhood (PoP), to deliver meaningful solutions."
-          link="#"
+          title="Strategic Advisory"
+          description="We guide founders and organizations in structuring, launching, and scaling technically complex platforms with clarity, precision, and long-term viability."
+          link="#contact"
           size="small"
           bgImage="/assets/images/webp/innovative-bg.webp"
           overlayProps={{

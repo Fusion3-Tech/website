@@ -6,10 +6,9 @@ import Heading from "./Heading";
 import Paragraph from "./Paragraph";
 
 const Newsletter = () => {
-  // Parent container variants for staggered fade-in
   const containerVariants = {
     hidden: {},
-    show: { transition: { staggerChildren: 0.3 } }, // each child appears one by one
+    show: { transition: { staggerChildren: 0.3 } },
   };
 
   const itemVariants = {
@@ -18,7 +17,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section id="get-in-touch" className="section-x-gap newsletter">
+    <section id="contact" className="section-x-gap newsletter">
       <div className="newsletter-box">
         <motion.div
           className="newsletter-content-wrapper"
@@ -33,8 +32,8 @@ const Newsletter = () => {
               className="newsletter-heading"
               variant="small"
               headingVariant="small"
-              blueText="Join the Future"
-              whiteSecondText="of Decentralized Projects"
+              blueText="Let's design"
+              whiteSecondText="your next system."
               blueTextClass="newsletter-blue-heading"
             />
           </motion.div>
@@ -42,8 +41,8 @@ const Newsletter = () => {
           {/* Paragraph */}
           <motion.div variants={itemVariants}>
             <Paragraph className="newsletter-para" variant="small">
-              Stay updated on our projects and insights. Follow us on our
-              socials or get in touch.
+              Ready to build infrastructure that performs at scale? Start a
+              conversation with our team.
             </Paragraph>
           </motion.div>
 
@@ -52,11 +51,11 @@ const Newsletter = () => {
             variants={itemVariants}
             className="newsletter-btn-wrapper newsletter-btn-equal"
           >
-            <CommonButton variant="light" href="#portfolio">
-              View projects
-            </CommonButton>
-            <CommonButton variant="dark" href="mailto:contact@fusion3.tech">
+            <CommonButton variant="light" href="mailto:contact@fusion3.tech">
               Contact Us
+            </CommonButton>
+            <CommonButton variant="dark" href="#capabilities">
+              Explore Capabilities
             </CommonButton>
           </motion.div>
         </motion.div>

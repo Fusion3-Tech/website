@@ -9,17 +9,15 @@ import Heading from "../common/Heading";
 import Paragraph from "../common/Paragraph";
 
 const Mission = () => {
-  // Parent variant to stagger children
   const parentVariant = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.3, // gap between each animation
+        staggerChildren: 0.3,
       },
     },
   };
 
-  // Fade + slide up variant
   const fadeUpVariant = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -29,7 +27,6 @@ const Mission = () => {
     },
   };
 
-  // Scale-up variant for image
   const scaleUpVariant = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: {
@@ -40,7 +37,7 @@ const Mission = () => {
   };
 
   return (
-    <div id="mission" className="section-x-gap mission">
+    <div id="philosophy" className="section-x-gap mission">
       <section className="mission-section">
         {/* Left Content */}
         <motion.div
@@ -48,18 +45,18 @@ const Mission = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
-          variants={parentVariant} // apply stagger here
+          variants={parentVariant}
         >
           <motion.div variants={fadeUpVariant}>
-            <Badge start>Our Mission</Badge>
+            <Badge start>Our Philosophy</Badge>
           </motion.div>
 
           <motion.div variants={fadeUpVariant}>
             <Heading variant="white" className="text-start mission-heading">
               <span className="mission-start-heading">
-                We build projects
+                Durable systems require
               </span>{" "}
-              with Web3 principles in mind.
+              both robust architecture and adaptive logic.
             </Heading>
           </motion.div>
 
@@ -68,7 +65,7 @@ const Mission = () => {
               variant="large"
               className="mission-para text-start !mx-0 "
             >
-              We develop projects for high-impact needs, with Web3 principles at the core.
+              We design infrastructure built to scale and intelligence built to evolve. Every system we deliver is engineered for the conditions of today and the demands of tomorrow.
             </Paragraph>
           </motion.div>
 
@@ -85,13 +82,12 @@ const Mission = () => {
           </motion.div>
 
           <motion.div variants={fadeUpVariant}>
-            <CommonButton className="portfolio-btn" href="#portfolio" variant="light">
-              View projects
+            <CommonButton className="portfolio-btn" href="#contact" variant="light">
+              Work with us
             </CommonButton>
           </motion.div>
         </motion.div>
 
-        {/* ✅ Image visible only on ≥ 768px */}
         <motion.div
           variants={scaleUpVariant}
           initial="hidden"
