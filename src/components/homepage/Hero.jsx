@@ -41,9 +41,13 @@ const Hero = () => {
               className="text-center hero-heading mx-auto"
               variant="large"
               headingVariant="main"
-              whiteText="Infrastructure & "
-              gradientBlueText="Intelligence Consultancy"
-            />
+            >
+              <span className="text-white block">Infrastructure and</span>
+              {/* <span className="text-white block">&</span> */}
+              <span className="text-gradient-purple block hero-intelligence-line">
+                Intelligence Consultancy
+              </span>
+            </Heading>
           </motion.div>
 
           {/* Paragraph */}
@@ -52,13 +56,16 @@ const Hero = () => {
               variant="extraLarge"
               className="hero-para text-center mx-auto"
             >
-              We design and deploy high-performance digital systems for organizations operating at the edge of technical complexity.
+              We design and deploy high-performance digital systems for
+              organizations operating at the edge of technical complexity.
             </Paragraph>
           </motion.div>
 
           {/* Buttons */}
           <motion.div variants={fadeUpVariant} className="hero-btn-wrapper">
-            <CommonButton variant="light" href="#contact">Work With Us</CommonButton>
+            <CommonButton variant="light" href="#contact">
+              Work With Us
+            </CommonButton>
             <CommonButton href="#capabilities" variant="dark">
               Explore Capabilities
             </CommonButton>

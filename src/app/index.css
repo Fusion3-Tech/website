@@ -41,7 +41,7 @@
   pointer-events: none;
 }
 .mission-section {
-  max-width: 1072px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -82,7 +82,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 1fr;
   gap: 24px;
-  max-width: 1072px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -613,7 +613,7 @@
     grid-auto-rows: 1fr;
     gap: 16px;
     margin: auto;
-    max-width: 1072px;
+    max-width: 1400px;
   }
   .feature-card.large {
     grid-row: span 1;

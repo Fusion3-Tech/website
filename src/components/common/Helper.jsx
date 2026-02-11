@@ -35,7 +35,10 @@ export const footerSitemap = [
   { name: "Contact", href: "#contact" },
 ];
 export const footerSocials = [
-  { name: "Linkedin", href: "https://www.linkedin.com/company/109154128/admin/dashboard/" },
+  {
+    name: "Linkedin",
+    href: "https://www.linkedin.com/company/109154128/admin/dashboard/",
+  },
   { name: "Github", href: "https://github.com/Fusion3-Tech" },
 ];
 export const footerContact = [
@@ -131,5 +134,12 @@ export const foundersDataList = [
     name: "Sergej N. Sakac",
     desc: "Sergej N. Sakac is an engineer with a master's degree and over 20 years of experience in organizational leadership across IT and engineering industries. He oversees operational strategy, delivery execution, and the structural integrity of every engagement.",
     href: "https://www.linkedin.com/in/sergej-n-sakac-617514a3/",
+  },
+  {
+    image: "/assets/images/webp/petar.png",
+    role: "Engineer",
+    name: "Petar Grahovac",
+    desc: "Petar is a engineer who has worked on RegionX, contributing to the development of production-grade Web3 infrastructure and high-performance user interfaces. He focuses on building reliable, scalable systems that translate complex blockchain logic into seamless user experiences. ",
+    href: "https://www.linkedin.com/in/petar-grahovac-6815a025a/",
   },
 ];

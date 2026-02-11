@@ -26,8 +26,7 @@ const FounderCard = ({ item }) => {
       whileInView="show"
       viewport={{ once: true, amount: 0.3 }}
     >
-      {/* Image */}
-      <motion.div variants={itemVariants}>
+      <motion.div variants={itemVariants} className="founder-image-wrap">
         <Image
           src={item.image}
           alt={item.name}
@@ -37,34 +36,29 @@ const FounderCard = ({ item }) => {
         />
       </motion.div>
 
-      {/* Role */}
       <motion.div
         variants={itemVariants}
-        className="founder-badge font-funnel font-semibold text-xl leading-150 text-white"
+        className="founder-badge"
       >
         {item.role}
       </motion.div>
 
-      {/* Name */}
-      <motion.span
-        variants={itemVariants}
-        className="text-7xl font-normal leading-100 -tracking-32 text-center text-white"
-      >
+      <motion.h3 variants={itemVariants} className="founder-name">
         {item.name}
-      </motion.span>
+      </motion.h3>
 
-      {/* Description */}
       <motion.div variants={itemVariants}>
-        <Paragraph className="founder-desc text-center" variant="small">
+        <Paragraph className="founder-desc" variant="small">
           {item.desc}
         </Paragraph>
       </motion.div>
 
-      {/* Link */}
-      <motion.div variants={itemVariants}>
+      <motion.div variants={itemVariants} className="founder-link-row">
         <Link
           href={item.href}
-          className="founder-link font-funnel font-semibold text-xl leading-150 text-white"
+          className="founder-link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Linkedin <TopRightArrow className="founder-arrow" />
         </Link>
