@@ -139,7 +139,7 @@ export const foundersDataList = [
     image: "/assets/images/webp/petar.png",
     role: "Engineer",
     name: "Petar Grahovac",
-    desc: "Petar is a engineer who has worked on RegionX, contributing to the development of production-grade Web3 infrastructure and high-performance user interfaces. He focuses on building reliable, scalable systems that translate complex blockchain logic into seamless user experiences. ",
+    desc: "Petar is an engineer who has worked on RegionX, contributing to the development of a production-grade Web3 application frontend. He focuses on building reliable frontend systems with an emphasis on seamless user experiences. ",
     href: "https://www.linkedin.com/in/petar-grahovac-6815a025a/",
   },
 ];
