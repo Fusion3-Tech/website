@@ -422,11 +422,11 @@ button {
 .hero-image-wrapper {
   position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: 560px;
   aspect-ratio: 807 / 578;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -45px;
+  margin-top: 6px;
   z-index: 0;
 }
 
@@ -447,6 +447,7 @@ button {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 16px;
+  margin-bottom: 10px;
 }
 
 .hero-heading {
@@ -2074,6 +2075,16 @@ button {
 @media (min-width: 1900px) {
   .hero-image-wrapper {
     max-width: 807px;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-image-wrapper {
+    max-width: 560px;
+  }
+}
+@media (min-width: 1900px) {
+  .hero-image-wrapper {
+    max-width: 640px;
   }
 }
 @media (max-width: 640px) {
